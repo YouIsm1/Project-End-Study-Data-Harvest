@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+form { max-width:420px; margin:50px auto; }
+
+.contact_container {
+    border-radius: 3%;
+    margin: 20px auto;
+    margin-top: 80px;
+    width: 50%;
+
+    /* height: 100vh;  */
+    display: flex;
+    position: absolute;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    left: 0;
+    right: 0;
+    
+    /* background-color: #3a4d5cb6; */
+    background-color: #669ecc5d;
+    
+}
+
+/* Optional: Set flex-grow: 1; for equal space distribution */
+.head_conatct_container,
+.form_contact_container,
+.footer_contact_container {
+  color: #669ecc;
+  margin-top: 10%;
+  flex-grow: 1;
+}
+  
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #669ecc;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  
+}
+
+.feedback-input:focus { border:2px solid #4979cc; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#669ecc;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#2e5ed6; }
+
+
+[type="reset"] {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background:#669ecc;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:7px;
+    font-weight:700;
+  }
+  [type="reset"]:hover { background:#2e5ed6; }
+
+  .contact_div{
+    background-color: #669ecc;
+    /* position: relative; */
+  }

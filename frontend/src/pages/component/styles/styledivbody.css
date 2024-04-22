@@ -1,0 +1,95 @@
+/* Import a reliable font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/* Page container (optional, for better styling control) */
+body {
+  margin: 0; /* Remove default body margin */
+  font-family: sans-serif; /* Set a base font family */
+}
+
+.homebody1 {
+  z-index: 1;
+  position: fixed;
+  margin-top:  70px;
+  height: calc( 100vh - 70px);
+  padding: 50px 0; /* Add padding to create space around the text */
+  left: 0;
+  width: auto;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Center-align the text */
+
+  font-family: "Lucida Sans Unicode";  color: #dfdfdf; /* Set the text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.781); /* Add a subtle text shadow for depth */
+  /* Add any additional styles or animations as desired */
+}
+
+/* Centering the .homebody element */
+.homebody2 {
+  /* background:linear-gradient(90deg, rgba(3, 38, 53, 0.55) 0%, rgba(23, 1, 5, 0.221) 35%, rgba(0, 213, 255, 0.678) 170%); */
+  backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+
+
+  margin-top: 100vh;
+  padding: 5%;
+  max-width: 100%;
+  height: fit-content;
+  flex-direction: column;
+  display: flex;
+  position:absolute;
+  color: rgb(249, 249, 249);
+
+/* 
+  text-align: center;
+  align-items: center;*/
+  justify-content: center; 
+
+  left: 0;
+  right: 0;
+  /* max-width: 1300px; */
+  /* Adjust this value to fit your
+  display: block;  Set display to block for centering */
+  /* margin-left: 20%; 
+  margin-right: 20%;  */
+  width: fit-content; 
+  background-color: #3a4d5cb6;
+
+}
+
+/* Paragraph Styling */
+p {
+  margin: 10px 0; /* Adjust margin for spacing between paragraphs */
+  padding: 5px;
+  text-align: justify;
+  line-height: 1.5; /* Improve readability with line spacing */
+}
+
+/* _______________________________________ */
+
+.result_content{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  margin-top:  70px;
+  padding: 50px ; /* Add padding to create space around the text */
+  left: 0;
+  width: auto;
+  right: 0;
+  height: fit-content;
+  overflow: auto;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(0, 0, 0);
+
+  font-family: "Lucida Sans Unicode";  color: #dfdfdf; /* Set the text color */
+  /* Add any additional styles or animations as desired */
+
+
+}

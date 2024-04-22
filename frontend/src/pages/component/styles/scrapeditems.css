@@ -1,0 +1,34 @@
+.totdata {
+    flex-wrap: wrap;
+    width: 100%; 
+    flex-direction: column;
+    left: 0;
+    right: 0;
+
+  }
+  
+  .productinfos, .reviewsclients {
+    flex: 1; 
+    padding: 1rem; 
+    border: 1px solid #dddddd67;
+    margin: 1rem;
+  }
+  .descp table {
+    width: 100%; /* Make table fill available width */
+    border-collapse: collapse; /* Remove default table border spacing */
+  }
+  
+  .descp th,
+  .descp td {
+    padding: 1rem; /* Add some padding inside table cells */
+    border: 1px solid #ffffff; /* Add a light border */
+    text-align: left; /* Align content to the left */
+  }
+  
+  .descp th {
+    background-color: #3c317a27; /* Light background for table headers */
+    font-weight: bold; /* Make header text bold */
+  }
+  
+
+  
